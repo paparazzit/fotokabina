@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Oswald:wght@200;300;400;500;600&display=swap");
+@-webkit-keyframes text-box {
+  0% {
+    margin-left: -70%;
+    opacity: 0;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+    margin-left: 0;
+  }
+}
+@keyframes text-box {
+  0% {
+    margin-left: -70%;
+    opacity: 0;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+    margin-left: 0;
+  }
+}
+@-webkit-keyframes grow {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes grow {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+  color: white;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+
+.dark {
+  color: #111111;
+}
+
+.btn {
+  font-size: 1.3rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  padding: 0.5em 1.5em;
+  border-radius: 30px;
+}
+
+.btn-white {
+  background-color: white;
+  color: #20baca;
+}
+
+.container {
+  max-width: 1140px;
+  max-width: 1140px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: #20baca;
+}
+
+header .item {
+  position: relative;
+  height: 100vh;
+  padding: 50px 0 0 0;
+  border: 2px solid red;
+}
+header .item article {
+  background-color: #20baca;
+  width: 612px;
+  border-radius: 20px;
+  padding: 5% 10% 8% 5%;
+  -webkit-animation: text-box 1.6s ease-in-out both 0.3s;
+          animation: text-box 1.6s ease-in-out both 0.3s;
+}
+header .item article h1 {
+  font-size: 3.5rem;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+header .item article p {
+  margin-bottom: 50px;
+  font-size: 1.5rem;
+}
+header .item .img-circle {
+  width: 610px;
+  height: 610px;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 0px 10px rgba(17, 17, 17, 0.5);
+          box-shadow: 0px 0px 10px rgba(17, 17, 17, 0.5);
+  position: absolute;
+  right: 0;
+  top: 25%;
+  -webkit-animation: grow 1.5s ease-in-out both;
+          animation: grow 1.5s ease-in-out both;
+}
+header .item .img-circle img {
+  width: 100%;
+}
+header .item .img-circle.circle-sm {
+  bottom: 0px;
+  top: unset;
+  width: 280px;
+  height: 280px;
+  border: 17px solid #20baca;
+  left: 35%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+header .item .img-circle.circle-sm img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+header .item .circle-1 {
+  width: 145px;
+  height: 145px;
+  margin-top: 40px;
+  -webkit-animation: grow 0.5s ease-in-out both 0.4s;
+          animation: grow 0.5s ease-in-out both 0.4s;
+}
+header .item .circle-2 {
+  -webkit-animation: grow 0.5s ease-in-out both;
+          animation: grow 0.5s ease-in-out both;
+  width: 170px;
+  height: 170px;
+  background: none;
+  position: absolute;
+  top: 0;
+  right: 20px;
+  border: 30px solid #20baca;
+}/*# sourceMappingURL=style.css.map */
