@@ -5,17 +5,35 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="css/style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+			integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
 		<title>Document</title>
 	</head>
 	<body>
 		<!-- NAVIGACIJA -->
-		<nav></nav>
+		<nav>
+			<div class="container">
+				<a href="#">Logo</a>
+				<ul class="links">
+					<li><a href="#">Početna</a></li>
+					<li><a href="#">Šta je Selfi Kabina</a></li>
+					<li><a href="#">Paketi</a></li>
+					<li><a href="#">Kontakt</a></li>
+					<li><a href="#">Zakazi termin</a></li>
+				</ul>
+			</div>
+		</nav>
 		<!-- MAIN -->
 		<main>
 			<!-- header -->
 			<header class="container">
 				<div class="hero_slider">
-					<div class="item active">
+					<div class="item">
 						<article>
 							<h1 class="white">
 								We work with runners, cyclists and triathletes
@@ -36,9 +54,107 @@
 						<div class="circle circle-1 circ"></div>
 						<div class="circle circle-2 circ"></div>
 					</div>
-					<div class="slider-nav"></div>
+
+					<div class="slider-nav">
+						<div class="prev"><i class="fa-solid fa-play"></i></div>
+						<div class="next"><i class="fa-solid fa-play"></i></div>
+					</div>
 				</div>
 			</header>
+			<!-- SECTION ONE -->
+
+			<section class="paketi" id="paketi">
+				<div class="bg-img">
+					<img src="assets/img3.jpg" alt="" />
+				</div>
+				<div class="container-bg">
+					<article class="card color-main">
+						<div class="card-content">
+							<h3>our mission</h3>
+							<h2>Our Club promotes and friendship through running.</h2>
+							<a href="#" class="more">More</a>
+						</div>
+					</article>
+					<article class="card color-sec">
+						<div class="card-content">
+							<h3>our mission</h3>
+							<h2>Our Club promotes and friendship through running.</h2>
+							<a href="#" class="more">More</a>
+						</div>
+					</article>
+					<article class="card color-main">
+						<div class="card-content">
+							<h3>our mission</h3>
+							<h2>Our Club promotes and friendship through running.</h2>
+							<a href="#" class="more">More</a>
+						</div>
+					</article>
+				</div>
+			</section>
+
+			<!-- section two -->
+			<section class="two" id="two">
+				<div class="container-bg">
+					<article class="card">
+						<div class="card-content">
+							<h2>Community</h2>
+							<img src="assets/icons/photo-booth_w.png" alt="" />
+							<p>
+								Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore
+							</p>
+
+							<a href="" class="btn btn-transparent">More</a>
+						</div>
+					</article>
+					<article class="card">
+						<div class="card-content">
+							<img src="assets/icons/strip.png" alt="" />
+							<h2>Community</h2>
+							<p>
+								Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore
+							</p>
+
+							<a href="" class="btn btn-transparent">More</a>
+						</div>
+					</article>
+					<article class="card">
+						<div class="card-content">
+							<img src="assets/icons/insta.png" alt="" />
+							<h2>Community</h2>
+							<p>
+								Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore
+							</p>
+
+							<a href="" class="btn btn-transparent">More</a>
+						</div>
+					</article>
+				</div>
+			</section>
+
+			<section class="cta" id="cta">
+				<div class="container inView">
+					<div class="img-circle circ">
+						<img src="assets/img6.jpg" alt="" />
+					</div>
+					<div class="img-circle circ">
+						<img src="assets/img5.jpg" alt="" />
+					</div>
+					<div class="circle-1 circ"></div>
+					<article>
+						<div class="content">
+							<h2>Running club leaders</h2>
+							<p>
+								Nibh venenatis cras sed felis eget velit aliquet sagittis id.
+								Tellus pellentesque eu tincidunt tortor aliquam nulla.
+							</p>
+							<a href="#" class="btn btn-white">Rezervisi termin</a>
+						</div>
+					</article>
+				</div>
+			</section>
 		</main>
 		<!-- FOOTER -->
 		<footer></footer>
